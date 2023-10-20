@@ -1,0 +1,16 @@
+O que arrumar no meu projeto quando a internet volta:
+
+Colocar o projeto no git e ir atualizando
+Procurar novas imagens e organização visual
+O carrossel funcionando em perfeito estado
+Arrumar a responsividade.
+Footer
+Fazer a tela de login e cadastro juntas
+fazer o botão de menu mostrando as diversidades
+fazer a lupa de pesquisa 
+fazer o quiz 
+arrumar alguma API para conectar ao banco de dados e node 
+
+ESTUDAR SOBRE API E NODE JS
+
+

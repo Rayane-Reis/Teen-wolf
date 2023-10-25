@@ -21,6 +21,7 @@ body {
     font-size: 1rem;
     color: var(--white);
     background-color: var(--primaryColor);
+    overflow-x: hidden;
     
 }
 
@@ -47,6 +48,9 @@ body {
 .heading h4 a:hover {
     color: rgb(133, 149, 160);
     cursor: pointer;
+}
+h1{
+    padding-top: 3px;
 }
 
 .h2 {
@@ -166,6 +170,8 @@ li a:hover {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+
+
 
 .img {
     width: 200px;
@@ -381,4 +387,63 @@ video{
 }
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color:var(--white);
+}
+
+footer{
+    background-color: #121b2c;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    font-family:sans-serif;
+    color: #ffffff;
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.sociais{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.sociais li{
+    margin: 0 10px;
+}
+.sociais a{
+    text-decoration: none;
+    color: var(--white);
+}
+.sociais a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.footer-bottom{
+    width: 100vw;
+    padding: 15px 0;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
 }

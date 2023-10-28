@@ -1,5 +1,6 @@
 :root {
-    --primaryColor: #050B17;
+    --primaryColor: #010113;
+    --twocolor: #050B17;
     --white: #ffffff;
     --black: #000000;
     --gap: 2rem;
@@ -67,17 +68,18 @@ h1{
     top: 0;
     left: 0;
     z-index: 2;
-    left: 70px;
-    right: 70px;
+    left: 10rem;
+    right: 10rem;
     margin-top: 20px;
     line-height: 0.1;
+    
 }
 
 .menu-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #010113;
     border-radius: 10px;
 
 }
@@ -129,7 +131,7 @@ ul{
 }
 
 li a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(29, 33, 42, 0.696);
     cursor: pointer;
 
 }
@@ -191,6 +193,11 @@ height: 250px;
 margin-right: 25px;
 cursor: pointer;
 border-radius: 15px;
+}
+.imgfooter{
+    justify-content: center;
+    margin: 0 auto;
+    height: 55px;
 }
 
  /* img:hover {
@@ -390,34 +397,31 @@ video{
 }
 
 footer{
-    background-color: #121b2c;
-    height: auto;
     width: 100vw;
     padding-top: 40px;
     font-family:sans-serif;
-    color: #ffffff;
-
+    color: #ffffff; 
+    
 }
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.footer-bottom{
+    width: 100vw;
+    padding-bottom: 2rem;
     text-align: center;
 }
-.footer-content h3{
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
+.footer-bottom li a{
+    color: rgb(39, 107, 158);
+    font-size: 17px;
+}
+.list-footer{
+    display: flex;
+    justify-content: center;
+    
+}
+.list-footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
-}
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
 .sociais{
     list-style: none;
     display:flex;
@@ -425,8 +429,9 @@ footer{
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
-.sociais li{
-    margin: 0 10px;
+.sociais li,
+.list-footer li{
+    margin: 0 7px;
 }
 .sociais a{
     text-decoration: none;
@@ -437,13 +442,6 @@ footer{
     transition: color .4s ease;
 }
 
-.footer-bottom{
-    width: 100vw;
-    padding: 15px 0;
-    text-align: center;
-}
-.footer-bottom p {
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-}
+
+
+

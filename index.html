@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teen wolf</title>
-    <link rel="icon" href="./assets/img/simbolo-removebg-preview.png">
+    <title>Movies</title>
+    <link rel="icon" class="img-heading" href="./assets/img/imagem do heading.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,10 +21,18 @@
             <aside class="menu">
                 <div class="main-content menu-content">
                     <h1><a href="#">Movies</a></h1>
+                    <div class="search-box">
+                        <input type="text" id="search" class="search-txt" placeholder="search">
+                        <a href="#" class="search-btn">
+                            <img src="./icons8-lupa.svg" alt="lupa" height="28" width="25">
+                        </a>
+                    </div>
                     <nav>
                         <ul>
                             <li class="temp dropdown">
-                                <a href="#home">Home</a>
+                                <a href="#home">Home
+                                    <img class="seta-dropdown" src="./assets/img/seta.png" alt="seta dropdown">
+                                </a>
                                 <div class="dropdown-menu">
                                     <a href="./assets/pages/sinopse.html">Sinopse</a>
                                     <a href="./assets/page/trailer.html">Trailer</a>
@@ -32,7 +40,9 @@
                             </li>
                             <li><a href="#elenco">Elenco</a></li>
                             <li class="temp dropdown">
-                                <a href="#temporadas">Temporadas</a>
+                                <a href="#temporadas">Temporadas
+                                    <img class="seta-dropdown" src="./assets/img/seta.png" alt="seta dropdown">
+                                </a>
                                 <div class="dropdown-menu">
                                     <a href="#one">Temporada 1</a>
                                     <a href="#two">Temporada 2</a>
@@ -42,7 +52,7 @@
                                     <a href="#six">Temporada 6</a>
                                 </div>
                             </li>
-                            <li><a href="#">Lupa</a></li>
+                            <li><a href="#">perfil</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -157,14 +167,18 @@
             <div class="conteiner">
                 <div class="gallery-wrapper">
                     <div class="gallery">
-                        <img class="imgs" id="one" src="./assets/img/temporadas imagens/primeira temporada.jpg" alt="imagem simbolizando a primeira temporada">
+                        <img class="imgs" id="one" src="./assets/img/temporadas imagens/primeira temporada.jpg"
+                            alt="imagem simbolizando a primeira temporada">
                         <img class="imgs" id="two" src="./assets/img/temporadas imagens/segunda temporada..jpg"
                             alt="imagem simbolizando a segunda temporada">
-                        <img class="imgs" id="three" src="./assets/img/temporadas imagens/terceira temporada.jpg" alt="imagem simbolizando a terceira temporada">
-                        <img class="imgs" id="four" src="./assets/img/temporadas imagens/quarta temporada.jpg" alt="imagem simbolizando a quarta temporada">
+                        <img class="imgs" id="three" src="./assets/img/temporadas imagens/terceira temporada.jpg"
+                            alt="imagem simbolizando a terceira temporada">
+                        <img class="imgs" id="four" src="./assets/img/temporadas imagens/quarta temporada.jpg"
+                            alt="imagem simbolizando a quarta temporada">
                         <img class="imgs" id="five" src="./assets/img/temporadas imagens/quinta temporada.jpg"
                             alt="imagem simbolizando a quinta temporada">
-                        <img class="imgs" id="six" src="./assets/img/temporadas imagens/sexta temporada.jpg" alt="imagem simbolizando a sexta temporada">
+                        <img class="imgs" id="six" src="./assets/img/temporadas imagens/sexta temporada.jpg"
+                            alt="imagem simbolizando a sexta temporada">
                     </div>
                 </div>
         </section>
@@ -191,6 +205,7 @@
                     <li><a href="#"><i class="fa fa-email"></i></a></li>
                     <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
 
                 </ul>
             </div>
